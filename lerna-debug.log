@@ -1,0 +1,15 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   registry: 'http://localhost:4000',
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.13.1',
+0 silly argv   '$0': 'C:\\Program\\node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'from-git' }
+1 notice cli v3.13.1
+2 verbose rootPath C:\code\vue-cli-copy
+3 verbose session a71f61e62aa30439
+4 verbose user-agent lerna/3.13.1/node@v10.15.2+x64 (win32)
+5 error Error: Command failed: git describe --always --long --dirty --first-parent
+5 error fatal: bad revision 'HEAD'
+5 error
+5 error     at makeError (C:\Program\node_modules\lerna\node_modules\_execa@1.0.0@execa\index.js:174:9)
+5 error     at Promise.all.then.arr (C:\Program\node_modules\lerna\node_modules\_execa@1.0.0@execa\index.js:278:16)
